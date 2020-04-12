@@ -132,7 +132,7 @@ class DoubleLinkedList {
         let string = '';
 
         while(current) {
-            string += ' ' + current.data;
+            string += current.data + ' ';
             current = current.next;
         }
 
