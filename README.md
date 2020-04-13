@@ -13,8 +13,8 @@ JS实现数据结构与算法杂记
     链表的特点是随机存储，顺序访问，不存在数组的扩容问题。因为要存储一些指针，相对数组要消耗更多存储空间。
     常见操作有查找节点，更新节点，插入节点，删除节点。
     查找的最坏时间复杂度O(n), 插入和删除的时间复杂度（1）
-    ![单向链表](./data-structures/linked-list.js)
-    ![双向链表](./data-structures/double-linked-list.js)
+    单向链表: /data-structures/linked-list.js
+    双向链表: /data-structures/double-linked-list.js
 
 ### 栈
     栈(stack)是一种线性数据结构，栈中的元素只能先入后出（First In Last Out,简称FILO）。
@@ -31,4 +31,6 @@ JS实现数据结构与算法杂记
     循环队列：
         队尾下标的计算公式：(队尾下标 + 1) % 数组长度
         队首下标的计算公式：(队首下标 + 1) % 数组长度
+    数组实现循环队列：/data-structures/queue-by-array.js
+    链表实现队列：/data-structures/queu-by-linked-list.js
 

@@ -33,6 +33,7 @@ class Queue {
         let deQueueElmenet = this.front;
         this.front = deQueueElmenet.next;
         this.length--;
+        
         return deQueueElmenet;
     }
 
