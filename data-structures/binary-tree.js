@@ -84,7 +84,6 @@ const list = [9, 16, 5, 20, 18, 12, 59];
 list.forEach(item => {
     bt.insert(item);
 });
-console.log(bt);
 bt.preOrderTraveral(bt.root);
 bt.inOrderTraveral(bt.root);
 bt.postOrderTraveral(bt.root);
